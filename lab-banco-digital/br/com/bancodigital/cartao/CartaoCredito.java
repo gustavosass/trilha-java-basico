@@ -10,7 +10,7 @@ public class CartaoCredito {
 	private String nome;
 	private long numero;
 	private int codigoSecreto;
-	private LocalDate dataVencimento;  
+	private LocalDate dataVencimento;
 	
 	public CartaoCredito(String nome) {
 		this.nome = nome;

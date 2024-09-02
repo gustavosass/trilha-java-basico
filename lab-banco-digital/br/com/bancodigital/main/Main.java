@@ -16,10 +16,10 @@ public class Main {
 		
 		Banco banco = new Banco();
 	
-		Cliente venilton = new Cliente();
-		venilton.setNome("Venilton");
-		Conta cc = new ContaCorrente(venilton, banco);
-		Conta poupanca = new ContaPoupanca(venilton, banco);
+		Cliente cliente = new Cliente();
+		cliente.setNome("Gustavo");
+		ContaCorrente cc = new ContaCorrente(cliente, banco);
+		ContaPoupanca poupanca = new ContaPoupanca(cliente, banco);
 		contas.add(cc);
 		contas.add(poupanca);
 		banco.setContas(contas);
@@ -29,17 +29,9 @@ public class Main {
 				
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
-		
-		if (cc instanceof ContaCorrente) {
-	        ContaCorrente contaCorrente = (ContaCorrente) cc;
-	        CartaoCredito cartao = ((ContaCorrente) cc).getCartaoCredito());
-		}
-		
-		System.out.println(cartao.);
-		
-		
+
 		banco.listarClientes();
-			
+
 	}
 
 }
