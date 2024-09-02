@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.com.bancodigital.banco.Banco;
-import br.com.bancodigital.cartao.CartaoCredito;
 import br.com.bancodigital.cliente.Cliente;
 import br.com.bancodigital.conta.Conta;
 import br.com.bancodigital.conta.ContaCorrente;
